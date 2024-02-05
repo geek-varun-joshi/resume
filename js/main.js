@@ -133,7 +133,7 @@ $(function () {
 		success: "valid",
 		submitHandler: function() {
 			$.ajax({
-				url: 'mailer/feedback.php',
+				url: 'https://script.google.com/macros/s/AKfycbyJ55birS_HMLN-KEva_CmMFLh7sPlni73IuNwEGB_XwWni_JQ2Et9x99YdiH7CO-Q/exec',
 				type: 'post',
 				dataType: 'json',
 				data: 'name='+ $("#cform").find('input[name="name"]').val() + '&email='+ $("#cform").find('input[name="email"]').val() + '&subject='+ $("#cform").find('input[name="subject"]').val() + '&message=' + $("#cform").find('textarea[name="message"]').val(),
